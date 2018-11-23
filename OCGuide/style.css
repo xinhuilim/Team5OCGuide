@@ -1,0 +1,106 @@
+/* http://paletton.com/#uid=75x0u0kaVz84jP27qHbeJtFiHpX  */
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald|Krub|Montserrat');
+
+
+*{
+  /* color:white;   */
+  /* color: #CD0020; */
+  font-family: Krub,sans-serif;
+  /* color:#ECA980; */
+  color:#C35163;
+}
+.row{
+  margin:50px;
+}
+.col-8{
+  text-align:center;
+  padding:20px;
+  /* border: 1px solid grey; */
+  border-radius:20px;
+  margin-bottom:20px;
+  background:#D6ADB3;
+}
+
+.card-text{
+  color:black;
+}
+
+
+#page{
+  background:#EEDDE0;
+  /* background:#FFEADD; */
+
+  /* background-color:#FFFFFF; */
+  /* margin:10px 50px; */
+  padding-bottom:100px;
+}
+
+
+a:link, a:visited, a:hover{
+  color:#CF8456;
+  font-weight:bold;
+}
+
+.topbar{
+  background:white;
+  padding-top:100px;
+  /* background:#529888; */
+  /* background: #FDD2D9; */
+  /* background-image:linear-gradient(#FCBEC8,#FFFFFF); */
+  
+  
+}
+
+
+.topbar a:link, .topbar a:visited, .topbar a:hover{
+  color:black;
+}
+
+
+li.nav-item{
+  font-color:#FFDBC4;
+}
+
+h1,h2{
+  font-family:Montserrat,sans-serif;
+  font-color:#C35163;
+  font-weight:bold;
+}
+
+.icon{
+  width:50px;
+}
+
+p{
+  color:white;
+}
+
+
+li{
+  margin: 20px 50px;
+}
+
+.featurette{
+  border-radius: 5px;
+  background: white;
+  padding:50px;
+}
+
+#navbarSupportedContent15{
+  background-color:white;
+}
+
+@media only screen and (max-width:800px){
+	#horizontalmenu{
+		display:none;
+	}
+}
+
+@media only screen and (min-width:801px){
+	#hamburgermenu{
+		display:none;
+	}
+}
+
