@@ -98,31 +98,52 @@
       subtitle - related category(e.g. Facilities)
       answer verification - whether response was correct, initially blank
       answers -
-        each answer has id identifying if answer is correct
-        id used for click event to display correct verification
+        each answer has class identifying if answer is correct
+        class used for click event to display correct verification
+
+      POSSIBLE TO DO: have related category link to category on website
       -->
       <!--
       BLANK TEMPLATE
+      Note: add to button class whether answer is correct
       <div class="card">
-        <h5 class="card-title"></h5>
+        <h5 class="card-title">Question #</h5>
         <h6 class="card-subtitle mb-2 text-muted"></h6>
         <p class="ansVerify"></p>
         <p class="card-text question"></p>
-        <p id="" class="answer"></p>
-        <p id="" class="answer"></p>
-        <p id="" class="answer"></p>
+        <div class="btn-group-vertical">
+          <button type="button" class="btn answer btn-secondary"></button>
+          <button type="button" class="btn answer btn-secondary"></button>
+          <button type="button" class="btn answer btn-secondary"></button>
+        </div>
       </div>
-      --> 
+      -->
 
+      <!-- Q1 -->
       <div class="card">
-        <h5 class="card-title"></h5>
-        <h6 class="card-subtitle mb-2 text-muted"></h6>
+        <h5 class="card-title">Question 1</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Facilities</h6>
         <p class="ansVerify"></p> <!-- whether response was correct, empty initially -->
-        <p class="card-text question"></p>
+        <p class="card-text question">Who should you contact if you are locked out of your room?</p>
         <!-- answers -->
-        <p id="" class="answer"></p>
-        <p id="" class="answer"></p>
-        <p id="" class="answer"></p>
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-secondary answer incorrect">Housing and Dining Services</button>
+          <button type="button" class="btn btn-secondary answer corect">Campus Police</button>
+          <button type="button" class="btn btn-secondary answer incorrect">Desk Services</button>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="card">
+        <h5 class="card-title">Question 2</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Health/Support, Campus Community</h6>
+        <p class="ansVerify"></p>
+        <p class="card-text question">Which of the following resources is NOT related to sexual identity?</p>
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-secondary answer correct">Title IX</button>
+          <button type="button" class="btn btn-secondary answer incorrect">ALLIES</button>
+          <button type="button" class="btn btn-secondary answer incorrect">Center for Diversity and Inclusion</button>
+        </div>
       </div>
 
     </div>  <!-- end #quiz -->
