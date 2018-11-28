@@ -41,6 +41,7 @@
 a:link, a:visited, a:hover{
   color:#CF8456;
   font-weight:bold;
+  style: none; 
 }
 
 .topbar{
@@ -49,8 +50,8 @@ a:link, a:visited, a:hover{
   /* background:#529888; */
   /* background: #FDD2D9; */
   /* background-image:linear-gradient(#FCBEC8,#FFFFFF); */
-  
-  
+
+
 }
 
 
@@ -103,4 +104,3 @@ li{
 		display:none;
 	}
 }
-
