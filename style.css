@@ -96,9 +96,10 @@ li{
 /* Quiz Page CSS */
 .card {
   width: 60%;
-  margin-left: 5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1%;
-  padding: 1em; 
+  padding: 1em;
 }
 
 

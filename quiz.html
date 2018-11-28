@@ -108,7 +108,7 @@
       Note: add to button class whether answer is correct
       <div class="card">
         <h5 class="card-title">Question #</h5>
-        <h6 class="card-subtitle mb-2 text-muted"></h6>
+        <h6 class="card-subtitle mb-2 text-muted"><a src="" target="_blank"></a></h6>
         <p class="ansVerify"></p>
         <p class="card-text question"></p>
         <div class="btn-group-vertical">
@@ -128,7 +128,7 @@
         <!-- answers -->
         <div class="btn-group-vertical">
           <button type="button" class="btn btn-secondary answer incorrect">Housing and Dining Services</button>
-          <button type="button" class="btn btn-secondary answer corect">Campus Police</button>
+          <button type="button" class="btn btn-secondary answer correct">Campus Police</button>
           <button type="button" class="btn btn-secondary answer incorrect">Desk Services</button>
         </div>
       </div>
@@ -158,6 +158,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <script src="script.js"></script>
+
+    <script>
+      // check if answer is corret on click
+      $("button.answer").click(function() {
+        if ($(this).hasClass("incorrect")) {
+          // change ansVerify color(red)
+          $(this).parent().siblings(".ansVerify").css("color", "#C35163")
+          // display "incorrect" message
+          $(this).parent().siblings(".ansVerify").text("Incorrect answer. Try again");
+        }
+        else if ($(this).hasClass("correct")) {
+          // change ansVerify color(green)
+          $(this).parent().siblings(".ansVerify").css("color", "#65B149")
+          //display "correct" message
+          $(this).parent().siblings(".ansVerify").text("Correct!");
+        }
+      })
+    </script>
 
   </body>
 </html>
