@@ -90,9 +90,44 @@
 
     </nav>
 
+    <div id="quiz">
+      <!--
+      HOW QUIZ CARDS WORK
+      each quiz card has:
+      title - "Question _"
+      subtitle - related category(e.g. Facilities)
+      answer verification - whether response was correct, initially blank
+      answers -
+        each answer has id identifying if answer is correct
+        id used for click event to display correct verification
+      -->
+      <!--
+      BLANK TEMPLATE
+      <div class="card">
+        <h5 class="card-title"></h5>
+        <h6 class="card-subtitle mb-2 text-muted"></h6>
+        <p class="ansVerify"></p>
+        <p class="card-text question"></p>
+        <p id="" class="answer"></p>
+        <p id="" class="answer"></p>
+        <p id="" class="answer"></p>
+      </div>
+      --> 
 
+      <div class="card">
+        <h5 class="card-title"></h5>
+        <h6 class="card-subtitle mb-2 text-muted"></h6>
+        <p class="ansVerify"></p> <!-- whether response was correct, empty initially -->
+        <p class="card-text question"></p>
+        <!-- answers -->
+        <p id="" class="answer"></p>
+        <p id="" class="answer"></p>
+        <p id="" class="answer"></p>
+      </div>
 
-  </div>
+    </div>  <!-- end #quiz -->
+
+  </div> <!-- end #page -->
 
 
   <!-- Optional JavaScript -->

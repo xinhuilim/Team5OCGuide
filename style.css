@@ -41,7 +41,7 @@
 a:link, a:visited, a:hover{
   color:#CF8456;
   font-weight:bold;
-  style: none; 
+  style: none;
 }
 
 .topbar{
@@ -92,6 +92,9 @@ li{
 #navbarSupportedContent15{
   background-color:white;
 }
+
+/* Quiz Page CSS */
+
 
 @media only screen and (max-width:800px){
 	#horizontalmenu{
